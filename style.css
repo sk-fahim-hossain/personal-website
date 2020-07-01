@@ -1,0 +1,99 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+p {
+    color: dimgray;
+    padding-bottom: 15px;
+}
+
+section {
+    overflow: hidden;
+}
+
+.header-section {
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+
+.half-width {
+    width: 40%;
+    padding: 2%;
+    margin-left: 5%;
+    float: left;
+}
+
+img {
+    width: 100%;
+}
+
+.pink-highlight {
+    color: #EC4B74;
+}
+
+.anchor-button {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, #EC5094, #EC4B74);
+}
+
+.biography-section {
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    margin-top: 170px;
+}
+
+.latest-section h1 {
+    text-align: center;
+    padding: 60px 0 47px 0;
+    font-weight: 700;
+}
+
+.latest-section {
+    margin-top: 170px;
+}
+
+.work-items {
+    width: 30%;
+    margin-left: 3%;
+    float: left;
+}
+
+footer {
+    text-align: center;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    margin-top: 160px;
+}
+
+footer h4 {
+    padding-top: 45px;
+}
+
+.mail-button {
+    padding: 20px 120px;
+    background-image: linear-gradient(45deg, #EC5094, #EC4B74);
+    display: inline-block;
+    border-radius: 10px;
+    color: white;
+    margin-top: 40px;
+}
+
+.mail-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.mail-button p {
+    color: white;
+}
+
+.copy-right {
+    margin-top: 100px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
